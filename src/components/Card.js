@@ -1,7 +1,7 @@
 import Img from "./Img";
 export default function Card({ src }) {
   return (
-    <div className="flex-shrink-0 mr-3 my-2 p-3 w-72 h-80 rounded-lg bg-gray-300 bg-opacity-30 backdrop-filter blur-xl shadow-lg">
+    <div className="flex-shrink-0 mr-3 my-2 p-3 w-72 h-80 rounded-lg bg-blue-300 bg-opacity-20 backdrop-filter blur-xl shadow-lg">
       <div className="flex flex-col space-y-3">
         <div className="relative h-40">
           <img className="object-cover w-full h-full rounded-md" src={src} />
